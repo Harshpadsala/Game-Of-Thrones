@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Stark</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <link href="https://db.onlinewebfonts.com/c/97c4b25dc74e0ab045154e75a8fdd69d?family=Game+of+Thrones"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="stark.css">
+    <link rel="stylesheet" href="common.css">
+
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <div class="nav-container">
+            <p class="text-light  houses">Houses</p><br><br>
+            <a href="Stark.html" class="nav-links">
+                <p class=" text-light nav-options"> <i class="fa-regular fa-hand-point-right"></i>
+                    &nbsp; &nbsp; Stark</p>
+            </a>
+            <a href="Targaryen.html" class="nav-links">
+                <p class=" text-light nav-options"> <i class="fa-regular fa-hand-point-right"></i>
+                    &nbsp; &nbsp; Targaryen</p>
+            </a>
+            <a href="Lannister.html" class="nav-links">
+                <p class=" text-light nav-options"> <i class="fa-regular fa-hand-point-right"></i>
+                    &nbsp; &nbsp; Lannister</p>
+            </a>
+            <a href="Baratheon.html" class="nav-links">
+                <p class=" text-light nav-options"> <i class="fa-regular fa-hand-point-right"></i>
+                    &nbsp; &nbsp; Baratheon</p>
+            </a>
+            <a href="../home/index.html" class="nav-links">
+                <p class=" text-light nav-options"> <i class="fa-regular fa-hand-point-right"></i>
+                    &nbsp; &nbsp; Home</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="content scrollable">
+        <button class="btn btn-outline-light btn-sm play-btn"><i class="fa-solid fa-music"></i></button>
+
+        <div class="cards">
+
+            <!-- ned-stark -->
+            <div class="card" style="width: 40rem; margin: 0; padding: 3rem;">
+                <img src="https://2.bp.blogspot.com/-_83NZV0l6d4/VFtsC8KPlrI/AAAAAAAAJaA/k04mRzjg_fw/s1600/Eddard%2BStark-Sean%2BBean.jpg"
+                    class="card-img-top" alt="eddard stark">
+                <div class="card-body ">
+                    <h5 class="card-title">Eddard Stark</h5>
+                    <p class="card-text">Eddard Stark , Lord of Winterfell, embodies honor and
+                        integrity. As Hand of the King, he uncovers dangerous secrets in King's Landing, but his
+                        commitment
+                        to justice leads to his demise. Stark's loyalty to family and duty echoes through Westeros,
+                        igniting
+                        a struggle for power after his tragic end</p>
+                </div>
+            </div>
+
+            <!-- Catelyn stark -->
+            <div class="card" style="width: 40rem; margin: 0; padding: 3rem;">
+                <img src="data:image/jpeg;base64,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"
+                    class="card-img-top" alt="Catelyn stark">
+                <div class="card-body ">
+                    <h5 class="card-title">Catelyn Stark</h5>
+                    <p class="card-text">Catelyn Stark, née Tully, was born into House Tully as the daughter of Hoster
+                        Tully, and sister of Lysa and Edmure Tully. She married into House Stark through her marriage to
+                        Eddard Stark. Together, they had five children: Robb, Sansa, Arya, Bran, and Rickon.</p>
+                </div>
+            </div>
+
+            <!-- Benjen Stark -->
+            <div class="card" style="width: 40rem; margin: 0; padding: 3rem;">
+                <img src="https://imgix.bustle.com/inverse/34/e8/e1/4f/3272/46e8/a4da/7bf8d1ef2279/benjen-stark-as-coldhands-in-game-of-thrones.png"
+                    class="card-img-top" alt="Benjen stark">
+                <div class="card-body ">
+                    <h5 class="card-title">Benjen Stark</h5>
+                    <p class="card-text">Benjen Stark was the First Ranger of the Night's Watch. He rescued Bran Stark
+                        and Meera Reed from wights after they escaped from the cave of the Three-Eyed Raven. He
+                        eventually sacrificed himself to save Jon Snow by luring the army of the dead towards him.</p>
+                </div>
+            </div>
+
+            <!-- Lyanna-stark -->
+            <div class="card" style="width: 40rem; margin: 0; padding: 3rem;">
+                <img src="https://watchersonthewall.com/wp-content/uploads/2017/08/Lyanna-Stark.jpg"
+                    class="card-img-top" alt="Lyanna stark">
+                <div class="card-body ">
+                    <h5 class="card-title">Lyanna Stark</h5>
+                    <p class="card-text">Lyanna Stark was the daughter of Lord Rickard Stark and sister of Brandon,
+                        Eddard, and Benjen Stark. She went on to be the wife of Rhaegar Targaryen, the Prince of
+                        Dragonstone, and mother to Jon Snow.</p>
+                </div>
+            </div>
+
+
+            <!-- Robb-stark -->
+            <div class="card" style="width: 40rem; margin: 0; padding: 3rem;">
+                <img src="https://www.looper.com/img/gallery/the-real-reason-richard-madden-left-game-of-thrones/intro-1649971752.jpg"
+                    class="card-img-top" alt="Robb stark">
+                <div class="card-body ">
+                    <h5 class="card-title">Robb Stark</h5>
+                    <p class="card-text">King Robb Stark was the eldest son of Lord Eddard Stark of Winterfell and his
+                        wife, Lady Catelyn. Robb was declared King in the North during the War of the Five Kings, after
+                        the execution of his father by King Joffrey Baratheon.</p>
+                </div>
+            </div>
+
+            <!-- Sansa-stark -->
+            <div class="card" style="width: 40rem; margin: 0; padding: 3rem;">
+                <img src="https://qph.cf2.quoracdn.net/main-qimg-afe70aa67ba81507bba77c31c2c9c965-lq"
+                    class="card-img-top" alt="Sansa stark">
+                <div class="card-body ">
+                    <h5 class="card-title">Sansa Stark</h5>
+                    <p class="card-text">Sansa Stark is the eldest daughter of Eddard Stark of Winterfell and his wife
+                        Catelyn. She initially starts off with a very naive view of the world, but as time goes on and
+                        she and her family suffer one cruelty and betrayal after another, she becomes a more hardened
+                        and learned individual.</p>
+                </div>
+            </div>
+
+            <!-- Arya-stark -->
+            <div class="card" style="width: 40rem; margin: 0; padding: 3rem;">
+                <img src="https://w.forfun.com/fetch/55/55efad1b25ebb7027e4c22e6b06b92ce.jpeg" class="card-img-top"
+                    alt="Arya stark">
+                <div class="card-body ">
+                    <h5 class="card-title">Arya Stark</h5>
+                    <p class="card-text">Arya Stark is the third child of Eddard Stark and Catelyn Stark. After narrowly
+                        escaping the persecution of House Stark by House Lannister, Arya is trained as a Faceless Man at
+                        the House of Black and White in Braavos, and uses her new skills to bring those who have wronged
+                        her family to justice</p>
+                </div>
+            </div>
+
+            <!-- Brandon-stark -->
+            <div class="card" style="width: 40rem; margin: 0; padding: 3rem;">
+                <img src="https://www.mundodeportivo.com/alfabeta/hero/2019/05/bran-stark-juego-tronos.jpg?width=1200"
+                    class="card-img-top" alt="Brandon stark">
+                <div class="card-body ">
+                    <h5 class="card-title">Brandon Stark</h5>
+                    <p class="card-text">Brandon Stark, commonly called Bran, is the fourth child and second son of
+                        Eddard and Catelyn Stark. Bran is a warg and currently the new Three-Eyed Raven, using his
+                        supernatural gifts to assist his family in the war against the White Walkers</p>
+                </div>
+            </div>
+
+            <!-- Rickon-stark -->
+            <div class="card" style="width: 40rem; margin: 0; padding: 3rem;">
+                <img src="https://pyxis.nymag.com/v1/imgs/3c6/bc7/7e299fbf0d515e51214f210a335017c83a-09-rickon-stark.2x.h473.w710.jpg"
+                    class="card-img-top" alt="Rickon stark">
+                <div class="card-body ">
+                    <h5 class="card-title">Rickon Stark</h5>
+                    <p class="card-text">Rickon Stark was the youngest child and third son of Eddard and Catelyn Stark.
+                        Game Of Thrones: The Saddest Side Character Deaths
+                        Rickon met his end when Ramsay released him during the Battle of the Bastards and then shot an
+                        arrow through his chest right as he was reaching for his brother Jon</p>
+                </div>
+            </div>
+
+
+            <!--Theon Greyjoy -->
+            <div class="card" style="width: 40rem; margin: 0; padding: 3rem;">
+                <img src="https://helios-i.mashable.com/imagery/articles/00ZqA5qhWvoWrlIzdAUsAHn/hero-image.fill.size_1200x675.v1623370908.jpg"
+                    class="card-img-top" alt="Theon Greyjoy">
+                <div class="card-body ">
+                    <h5 class="card-title">Theon Greyjoy</h5>
+                    <p class="card-text">Theon Greyjoy, torn between loyalty and ambition, straddled the line between
+                        his ironborn roots and his surrogate Stark family. Betrayal led to his downfall, transforming
+                        him into the broken shell of a man known as Reek. Yet, in the crucible of suffering, he found
+                        redemption, reclaiming his identity and sacrificing himself to protect those he loved. Theon's
+                        journey is a poignant tale of resilience and the enduring power of redemptionn</p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <audio id="bgm" autoplay loop>
+            <source src="../libarary/bgm.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+
+    <script src="../home/script.js"></script>
+
+</body>
+
+</html>
